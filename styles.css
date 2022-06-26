@@ -1,0 +1,15 @@
+body{
+	text-align: center;
+}
+
+.grid{
+	margin: 1px;
+	width: 15%;
+	background-color: lightblue;
+	display: inline-block;
+	border-width: 5px;
+	border-style: solid;
+	border-color: red;
+	font-size: 200px;
+}
+

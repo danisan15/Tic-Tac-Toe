@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tic Tac Toe Game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<h1>Tic Tac Toe Game</h1>
+	<div id="tic-tac-game">
+		<div class="container1">
+			<div class="grid" id="grid1" onclick="showIcon(this.id)">&nbsp;</div>
+			<div class="grid" id="grid2" onclick="showIcon(this.id)">&nbsp;</div>
+			<div class="grid" id="grid3" onclick="showIcon(this.id)">&nbsp;</div>
+		<div class="container2">
+			<div class="grid" id="grid4" onclick="showIcon(this.id)">&nbsp;</div>
+			<div class="grid" id="grid5" onclick="showIcon(this.id)">&nbsp;</div>
+			<div class="grid" id="grid6" onclick="showIcon(this.id)">&nbsp;</div>
+		</div>
+		<div class="container3">
+			<div class="grid" id="grid7" onclick="showIcon(this.id)">&nbsp;</div>
+			<div class="grid" id="grid8" onclick="showIcon(this.id)">&nbsp;</div>
+			<div class="grid" id="grid9" onclick="showIcon(this.id)">&nbsp;</div>
+		</div>
+		<button id='reset-btn' onclick="resetApp()">Reset</button>
+	</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
